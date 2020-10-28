@@ -276,3 +276,6 @@ CREATE TABLE orden_detalles(
     FOREIGN KEY (ord_id) REFERENCES ordenes (ord_id),
     FOREIGN KEY (est_id) REFERENCES estatus (est_id)
 );
+
+
+-- Prueba de proyecto
